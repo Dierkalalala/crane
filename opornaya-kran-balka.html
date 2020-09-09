@@ -1,0 +1,1664 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i,900,900i&display=swap"
+        rel="stylesheet">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=a024a314-036e-4d6e-8d1f-0b5fa78a791f&lang=ru_RU"
+          type="text/javascript">
+  </script>
+  <script src="https://kit.fontawesome.com/844c0302d0.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="manifest" href=" site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!--  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">-->
+  <!-- Place favicon.ico in the root directory -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="css/libs.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="secondary-page history-page">
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<div class="right-pop-up-container">
+  <div class="right-pop-up-wrapper position-fixed">
+    <div class="right-pop-up col-lg-10 col-md-12 col-sm-12 col-12">
+      <div class="close-button col-lg-10 col-md-12 col-sm-12 col-12">
+      <span class="float-right">
+      &#10006;
+        </span>
+      </div>
+      <h3 class="pop-up-title">
+        Оставить запрос
+      </h3>
+      <div class="pop-up-subtitle">
+        Оставьте заявку, и мы перезвоним вам <br>
+        и проконсультируем по любым вопросам
+      </div>
+      <form class="footer-right-col-form modal-form ">
+        <label class=" position-relative">
+          <input class="footer-form-control able-to-type" name="name" type="text" placeholder="Ваше имя">
+          <span class="validation-error position-absolute">Необходимо заполнить <img
+            src="img/footer/input-validation-error.svg" alt=""></span>
+        </label>
+        <label class=" position-relative">
+          <input class="footer-form-control able-to-type" name="number" type="email" placeholder="Электронная почта">
+          <span class="validation-error position-absolute">Необходимо заполнить <img
+            src="img/footer/input-validation-error.svg" alt=""></span>
+        </label>
+        <label class=" position-relative">
+          <input class="footer-form-control able-to-type" name="city" type="text" placeholder="Город или область">
+          <span class="validation-error position-absolute">Необходимо заполнить <img
+            src="img/footer/input-validation-error.svg" alt=""></span>
+        </label>
+        <label class="position-relative">
+          <textarea name="" placeholder="Ваш вопрос" class="footer-form-control"></textarea>
+        </label>
+        <label class="file-label ">
+          <input type="file" class="position-absolute">
+          <span class="choose-the-file">
+  Прикрепить файл
+        </span>
+        </label>
+        <label class="checkbox-label ">
+          <input type="checkbox">
+          <span>Согласен с  <a href="#"> условиями обработки </a>   персональных данных</span>
+        </label>
+        <div class="catch-wrap ">
+          <img src="img/captcha.jpg" alt="">
+        </div>
+        <button type="submit" class="submit-btn main-footer-def-btn  def-btn-wrap">
+
+          <a href="" class="def-btn yellow-def-btn">
+            Отправить запрос
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <span>Отправить запрос</span>
+
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+<header class="header">
+  <div class="container position-relative">
+    <div class="row align-items-center">
+      <a href="#" class="logo-wrap col-lg-1 col-4 col-sm-4 col-md-4">
+        <img src="img/uniqlogo.svg" alt="">
+      </a>
+      <nav class="d-flex align-items-center col-4 col-sm-4 col-lg-8">
+        <div class="second-logo d-flex col-lg-3 align-items-center">
+          <div class="burger-icon mr-2">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2 class="header-cranes">Краны</h2>
+        </div>
+        <div class="header-nav col-lg-9 ">
+          <ul class="d-flex align-items-center justify-content-between">
+            <li><a class="active" href="#">Прайс-лист</a></li>
+            <li><a href="#">Оборудование</a></li>
+            <li><a href="#">Сервис</a></li>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+      <a href="tel:+74956554544" class="col-lg-2 col-sm-1 col-1 col-md-4 header-phone-number">
+        +7 495 655 45 44
+      </a>
+      <div class="burger col-md-1 col-5 col-sm-1">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="def-btn-wrap head-def-btn float-right position-absolute">
+
+        <a href="#" class="def-btn yellow-def-btn">
+          Оставить запрос
+        </a>
+        <span>Оставить запрос</span>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="history__page__head">
+    <div class="container">
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb history-page-breadcrumbs">
+          <li class="breadcrumb-item"><a href="#">Главная</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Преимущества завода</li>
+        </ol>
+        <a class="history__page__go__back" href="#">
+          <img src="img/chevron-right-white.png" class="history__page__go__back_img" alt="">
+          Назад
+        </a>
+        <h1 class="main-inner-title">
+          О заводе
+        </h1>
+        <div class="main-inner-subtext">
+          За время работы компании, мы добились не только колоссальных успехов в реализации продукции, но так же смогли
+          собрать и объединить высококвалифицированные кадры, работающие в области производства и обслуживания ГПО c
+          2001 года.
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="history-page-navbar-wrapper services-navbar position-relative">
+    <div class="container">
+      <div class="d-flex align-items-center">
+        <div class="nav-burger mr-3">
+          <span></span><span></span><span></span>
+        </div>
+        <h2> Дополнительные ссылки</h2>
+      </div>
+      <nav class=" navbar tab-bar-box services-inner-navbar navbar-light row">
+        <a class="navbar-brand tab-bar col active" href="#">
+          Описание
+        </a>
+        <a class="navbar-brand tab-bar col" href="#">
+          Характеристики
+        </a>
+        <a class="navbar-brand tab-bar col" href="#">
+          Преимущества
+        </a>
+        <a class="navbar-brand tab-bar col" href="#">
+          Комплектация
+        </a>
+        <a class="navbar-brand tab-bar col" href="#">
+          Модели
+        </a>
+        <a class="navbar-brand tab-bar col" href="#">
+          Стоимость
+        </a>
+        <a class="navbar-brand tab-bar col" href="#">
+          Фото и видео
+        </a>
+      </nav>
+    </div>
+  </div>
+  <section class="main-inner-content  controlled-bytabs-container">
+    <div class="active">
+      <div class="container">
+        <h2 class="inner-title">
+          Описание
+        </h2>
+        <div class="row">
+          <div class="desc-tab-col">
+            <img src="img/services-tabs/2.jpg" alt="">
+
+            <ul>
+              <li>Сначала осуществляется сборка металлоконструкции кран-балки на специальных опорах.</li>
+              <li>Проводятся дополнительные наземные испытания по работтоспособности кран-балки</li>
+              <li>Кран-балка поднимается на опорные, либо подвесные металлоконструкции цеха.</li>
+            </ul>
+
+            <h2 class="desc-inner-title">
+              Заголовок Н2
+            </h2>
+            <ol>
+              <li>Длина пролёта (определяется шириной цеха, куда будет установлен кран)</li>
+              <li>Грузоподъёмность (определяет возможность нагрузок)</li>
+              <li>Высота подъёма (определяет расстояние от крюка до пола)</li>
+            </ol>
+          </div>
+        </div>
+        <div class="desc-caution align-items-center d-flex">
+          <img src="img/services-tabs/3.svg" alt="">
+          <p>Для того, чтобы выбрать опорную кран-балку, которая будет максимально подходить Вашим требованиям,
+            необходимо ответить на ряд вопросов по характеристикам крана.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div >
+      <div class="container">
+        <h2 class="inner-title">
+          Характеристики опорных кран-балок
+        </h2>
+        <h3 class="inner-small-title">
+          Базовые характеристики мостовых опорных кранов
+        </h3>
+        <p>
+          К основным характеристикам опорных кран-балок можно отнести:
+        </p>
+        <ol class="opornaya-kran-balka-ol">
+          <li>Длина пролёта (определяется шириной цеха, куда будет установлен кран)</li>
+          <li> Грузоподъёмность (определяет возможность нагрузок, с которыми способен работать кран)</li>
+          <li>Высота подъёма (определяет расстояние от крюка до пола)</li>
+        </ol>
+        <p>
+          Именно данные характеристики определяют начальную стоимость крана. <br>
+          Любые характеристики могут быть изменены по согласованию с заказчиком.
+        </p>
+        <div class="row opornaya-kran-balka-feature-row">
+          <div class="col-lg-4">
+            <div class="opornaya-kran-balka-feature d-flex flex-wrap align-items-center justify-content-around">
+              <img src="img/opornaya-kran-balka/1.svg" alt="">
+              <p>
+                Длина пролета
+                до 32 метров
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="opornaya-kran-balka-feature d-flex flex-wrap align-items-center justify-content-around">
+              <img src="img/opornaya-kran-balka/2.svg" alt="">
+              <p>
+                Грузоподъемность
+                от 2 до 200 тонн
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="opornaya-kran-balka-feature d-flex flex-wrap align-items-center justify-content-around">
+              <img src="img/opornaya-kran-balka/3.svg" alt="">
+              <p>
+                Высота подъема
+                До 32 метров
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3 class="inner-small-title">
+          Типы конструкции опорных кран-балок
+        </h3>
+        <p>
+          Исходя из длины пролётного моста опорная кран-балка может иметь три строения. В зависимости от типа
+          конструкции определяется внешний вид, габариты , а так же технология изготовления крана.
+        </p>
+        <div class="row">
+          <div class=" col-lg-4 description-card">
+            <div class="card">
+              <div class="img-wrap">
+                <img src="img/services-tabs/1.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Коробчатая конструкция</h5>
+                <p class="card-text">Подходит для перемещения грузов высокой, средней и легкой тяжести при большом
+                  пролете</p>
+                <div class="def-btn-wrap">
+                  <a href="#" class="def-btn yellow-def-btn">
+                    Узнать подробнее
+                  </a>
+                  <span>Узнать подробнее</span>
+                </div>
+                <ul class="opornaya-kran-balka-additional-ul">
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                </ul>
+                <p class="opornaya-kran-balka-additional-ul-text">
+                  Простота инсталляции крана, благодаря идеальной геометрии коробчатого сечения.
+                </p>
+                <p class="opornaya-kran-balka-additional-ul-text">
+                  Оптимальный вес конструкции крана, что позволяет сократить нагрузку на крановые пути.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-4 description-card">
+            <div class="card">
+              <div class="img-wrap">
+                <img src="img/services-tabs/1.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Коробчатая конструкция</h5>
+                <p class="card-text">Подходит для перемещения грузов высокой, средней и легкой тяжести при большом
+                  пролете</p>
+                <div class="def-btn-wrap">
+                  <a href="#" class="def-btn yellow-def-btn">
+                    Узнать подробнее
+                  </a>
+                  <span>Узнать подробнее</span>
+                </div>
+                <ul class="opornaya-kran-balka-additional-ul">
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                </ul>
+                <p class="opornaya-kran-balka-additional-ul-text">
+                  Простота инсталляции крана, благодаря идеальной геометрии коробчатого сечения.
+                </p>
+                <p class="opornaya-kran-balka-additional-ul-text">
+                  Оптимальный вес конструкции крана, что позволяет сократить нагрузку на крановые пути.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-4 description-card">
+            <div class="card">
+              <div class="img-wrap">
+                <img src="img/services-tabs/1.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Коробчатая конструкция</h5>
+                <p class="card-text">Подходит для перемещения грузов высокой, средней и легкой тяжести при большом
+                  пролете</p>
+                <div class="def-btn-wrap">
+                  <a href="#" class="def-btn yellow-def-btn">
+                    Узнать подробнее
+                  </a>
+                  <span>Узнать подробнее</span>
+                </div>
+                <ul class="opornaya-kran-balka-additional-ul">
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                  <li>
+                    Г/п до 1 т. / от 28,5 м.
+                  </li>
+                </ul>
+                <p class="opornaya-kran-balka-additional-ul-text">
+                  Простота инсталляции крана, благодаря идеальной геометрии коробчатого сечения.
+                </p>
+                <p class="opornaya-kran-balka-additional-ul-text">
+                  Оптимальный вес конструкции крана, что позволяет сократить нагрузку на крановые пути.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="desc-caution align-items-center d-flex">
+          <img src="img/services-tabs/3.svg" alt="">
+          <p>Для того, чтобы выбрать опорную кран-балку, которая будет максимально подходить Вашим требованиям,
+            необходимо ответить на ряд вопросов по характеристикам крана.
+          </p>
+        </div>
+        <h3 class="inner-small-title">
+          Адаптация опорных кран-балок
+        </h3>
+        <p>
+          В зависимости от типа конструкции опорной кран-балки Вы можете выбрать форму крана, наиболее подходящего под
+          выше помещение, чем самым оптимизировав производственные потребности.
+        </p>
+        <div class="row opornaya-kran-balka-images-row">
+          <div class="col-lg-6 col-md-6">
+            <img src="img/opornaya-kran-balka/1.png" alt="">
+            <h3 class="inner-small-title after">
+              Для кранов с профильной структурой моста
+            </h3>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <img src="img/opornaya-kran-balka/2.png" alt="">
+            <h3 class="inner-small-title after">
+              Для кранов коробчатой и сварной структурой моста
+            </h3>
+          </div>
+        </div>
+        <h3 class="inner-small-title">
+          Типы управления опорных кран-балок
+        </h3>
+        <p>
+          Исходя из базовых характеристик, для заказа доступны опорные кран-балки ручным и электрическим типом
+          управления:
+        </p>
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <div class="type-of-navigation-card">
+              <div class="type-of-navigation-card-wrap">
+                <img src="img/opornaya-kran-balka/1.jpg" alt="">
+              </div>
+              <div class="type-of-navigation-card-body">
+                <h3 class="inner-small-title after">Ручной режим</h3>
+                <p>
+                  Бюджетный вариант. Подходит для опорных кран-балок небольшой грузоподъёмности
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="type-of-navigation-card">
+              <div class="type-of-navigation-card-wrap">
+                <img src="img/opornaya-kran-balka/1.jpg" alt="">
+              </div>
+              <div class="type-of-navigation-card-body">
+                <h3 class="inner-small-title after">Ручной режим</h3>
+                <p>
+                  Бюджетный вариант. Подходит для опорных кран-балок небольшой грузоподъёмности
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="inner-small-title">
+          Типы рельса опорных кран-балок
+        </h3>
+        <p>
+          Опорные кран-балки размещаются на подкрановых путях и передвигаются по рельсу.
+        </p>
+        <p>
+          В качестве такого рельса могут использоваться: квадрат металлический, железнодорожный, или крановый рельс. В
+          зависимости от нагрузки на колесо определяется наиболее подходящий тип рельса.
+        </p>
+        <div class="row mb-5">
+          <div class="col-lg-4">
+            <div class="relce-type-kran-balka-card">
+              <div class="type-of-navigation-card-wrap">
+                <img src="img/services-tabs/1.jpg" alt="">
+              </div>
+              <h3 class="inner-small-title after">
+                Квадрат металлический
+              </h3>
+              <p>
+                Подходящие типоразмеры: <br>
+                40х40; 50х50 ; 60х60; 70х70
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="relce-type-kran-balka-card">
+              <div class="type-of-navigation-card-wrap">
+                <img src="img/services-tabs/1.jpg" alt="">
+              </div>
+              <h3 class="inner-small-title after">
+                Квадрат металлический
+              </h3>
+              <p>
+                Подходящие типоразмеры: <br>
+                40х40; 50х50 ; 60х60; 70х70
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="relce-type-kran-balka-card">
+              <div class="type-of-navigation-card-wrap">
+                <img src="img/services-tabs/1.jpg" alt="">
+              </div>
+              <h3 class="inner-small-title after">
+                Квадрат металлический
+              </h3>
+              <p>
+                Подходящие типоразмеры: <br>
+                40х40; 50х50 ; 60х60; 70х70
+              </p>
+            </div>
+          </div>
+        </div>
+        <p>
+          Своим клиентам мы предлагаем размещать опорный кран на металлический квадрат, так как это наиболее экономное и
+          простое решение, при этом ни в чём не уступающее по качеству эксплуатации крана. Ниже приведена таблица
+          наиболее подходящих квадратов для кранов разной грузоподъёмности и пролётов.
+        </p>
+        <h3 class="red-inner-title">
+          Наиболее подходящий металлический квадрат
+        </h3>
+        <div class="overflow-table">
+          <table class="opornaya-kran-balka-table">
+            <thead>
+            <tr>
+              <td>Г/п <br>
+                Пролет крана
+              </td>
+              <td>до 4,5 м.</td>
+              <td>до 4,5 м.</td>
+              <td>до 4,5 м.</td>
+              <td>до 4,5 м.</td>
+              <td>до 4,5 м.</td>
+              <td>до 4,5 м.</td>
+              <td>до 4,5 м.</td>
+              <td>до 4,5 м.</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>2т</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+            </tr>
+            <tr>
+              <td>2т</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+            </tr>
+            <tr>
+              <td>2т</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+            </tr>
+            <tr>
+              <td>2т</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+            </tr>
+            <tr>
+              <td>2т</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+            </tr>
+            <tr>
+              <td>2т</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+            </tr>
+            <tr>
+              <td>2т</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+              <td>Квадрат</td>
+              <td>40х40.</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 class="inner-small-title">
+          Условия эксплуатации | исполнение крана
+        </h3>
+        <p class="mb-4">
+          В зависимости от внешней среды и условий эксплуатации важно определиться с типом исполнения опорного крана.
+        </p>
+        <div class="row mb-4">
+          <div class="col-lg-4">
+            <div class="exploit-card card">
+              <div class="type-of-navigation-card-wrap align-items-center justify-content-center d-flex">
+                <img src="img/opornaya-kran-balka/4.svg" alt="">
+              </div>
+              <div class="card-body">
+                <h3 class="inner-small-title after">
+                  Общепромышленное исполнение
+                </h3>
+                <p class="card-text">
+                  Опорная кран-балки общепромышленного исполнения подойдёт для эксплуатации в безопасной среде.
+                </p>
+                <div class="def-btn-wrap">
+                  <a href="#" class="def-btn yellow-def-btn">
+                    Узнать подробнее
+                  </a>
+                  <span>Узнать подробнее</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="exploit-card card">
+              <div class="type-of-navigation-card-wrap align-items-center justify-content-center d-flex">
+                <img src="img/opornaya-kran-balka/5.svg" alt="">
+              </div>
+              <div class="card-body">
+                <h3 class="inner-small-title after">
+                  Общепромышленное исполнение
+                </h3>
+                <p class="card-text">
+                  Опорная кран-балки общепромышленного исполнения подойдёт для эксплуатации в безопасной среде.
+                </p>
+                <div class="def-btn-wrap">
+                  <a href="#" class="def-btn yellow-def-btn">
+                    Узнать подробнее
+                  </a>
+                  <span>Узнать подробнее</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="exploit-card card">
+              <div class="type-of-navigation-card-wrap align-items-center justify-content-center d-flex">
+                <img src="img/opornaya-kran-balka/6.svg" alt="">
+              </div>
+              <div class="card-body">
+                <h3 class="inner-small-title after">
+                  Общепромышленное исполнение
+                </h3>
+                <p class="card-text">
+                  Опорная кран-балки общепромышленного исполнения подойдёт для эксплуатации в безопасной среде.
+                </p>
+                <div class="def-btn-wrap">
+                  <a href="#" class="def-btn yellow-def-btn">
+                    Узнать подробнее
+                  </a>
+                  <span>Узнать подробнее</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="inner-small-title">
+          Условия эксплуатации | температурный режим
+        </h3>
+        <p>
+          Немаловажно так же место/помещение и температура, при которой будет производиться эксплуатация крана. <br>
+          <br>
+          Согласно ГОСТ 15150-69 возможны следующие варианты размещения: <br>
+          У1 – размежение на открытой местности <br>
+          У2 – размещение на открытой местности под навесом <br>
+          У3 – размещение в закрытом помещении. <br>
+          <br>
+          А так же 2 варианта температурных режимов: <br>
+          -40С°+40С° <br>
+          -20С°+40С° <br>
+          <br>
+          Мы определили и предлагаем 6 наиболее популярных комплексных вариантов размещения опорной кран-балки, Вам
+          нужно лишь выбрать подходящее.
+        </p>
+        <div class="row kran-balka-gallery">
+          <div class="col-lg-4 col-md-6">
+            <div class="opornaya-kran-balka-img-wrap">
+              <a data-fslightbox="gallery1" class="gallery-wrap gallery-image-wrap" href="img/factory-page/1.jpg">
+                <img src="img/opornaya-kran-balka/2.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="opornaya-kran-balka-img-wrap">
+              <a data-fslightbox="gallery1" class="gallery-wrap gallery-image-wrap" href="img/factory-page/1.jpg">
+                <img src="img/opornaya-kran-balka/2.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="opornaya-kran-balka-img-wrap">
+              <a data-fslightbox="gallery1" class="gallery-wrap gallery-image-wrap" href="img/factory-page/1.jpg">
+                <img src="img/opornaya-kran-balka/2.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="opornaya-kran-balka-img-wrap">
+              <a data-fslightbox="gallery1" class="gallery-wrap gallery-image-wrap" href="img/factory-page/1.jpg">
+                <img src="img/opornaya-kran-balka/2.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="opornaya-kran-balka-img-wrap">
+              <a data-fslightbox="gallery1" class="gallery-wrap gallery-image-wrap" href="img/factory-page/1.jpg">
+                <img src="img/opornaya-kran-balka/2.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="opornaya-kran-balka-img-wrap">
+              <a data-fslightbox="gallery1" class="gallery-wrap gallery-image-wrap" href="img/factory-page/1.jpg">
+                <img src="img/opornaya-kran-balka/2.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <h3 class="inner-small-title">
+          Условия эксплуатации | режимы работы
+        </h3>
+        <p>
+          Согласно ГОСТ 25546-82 (ИСО 4301), в зависимости от интенсивности работы с крановым оборудованием, необходимо
+          выбрать один из трех возможных режимов работы кран-балкой:
+        </p>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="exploit-card number-exploit-card card">
+              <div class="type-of-navigation-card-wrap align-items-center justify-content-center d-flex">
+                <div class="number-type-of-exploit">
+                  А2
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="inner-small-title after">
+                  Легкий режим
+                </h3>
+                <div class="def-btn-wrap">
+                  <a href="#" class="def-btn yellow-def-btn">
+                    Узнать подробнее
+                  </a>
+                  <span>Узнать подробнее</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="exploit-card number-exploit-card card">
+              <div class="type-of-navigation-card-wrap align-items-center justify-content-center d-flex">
+                <div class="number-type-of-exploit">
+                  А3
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="inner-small-title after">
+                  Регулярный режим
+                </h3>
+                <div class="def-btn-wrap">
+                  <a href="#" class="def-btn yellow-def-btn">
+                    Узнать подробнее
+                  </a>
+                  <span>Узнать подробнее</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="exploit-card number-exploit-card card">
+              <div class="type-of-navigation-card-wrap align-items-center justify-content-center d-flex">
+                <div class="number-type-of-exploit">
+                  А4
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="inner-small-title after">
+                  Интенсивный режим
+                </h3>
+                <div class="def-btn-wrap">
+                  <a href="#" class="def-btn yellow-def-btn">
+                    Узнать подробнее
+                  </a>
+                  <span>Узнать подробнее</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <h2 class="inner-title">
+          Преимущества
+        </h2>
+        <p class="def-txt">
+          Завод грузоподъёмного оборудования UNIQ CRANE имеет ряд бесспорно привлекательных преимуществ. Благодаря
+          слаженной работе наших специалистов и своевременным поставкам качественного оборудования мы приобрели уже
+          более 80 постоянных клиентов, которые на регулярной основе осуществляют закупку кранового и сопутствующего
+          оборудования. Среди наших клиентов множество медийных организаций и крупных холдингов, в числе которых:
+        </p>
+        <div class="row advantages-cards-row">
+          <div class="col-lg-4 services-advantages-card">
+            <div class="card">
+              <img src="img/services-tabs/11.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Выгодная цена</h5>
+                <p class="card-text">Минимальная стоимость кран-балки всего 71 880 рублей</p>
+                <div class="def-btn-wrap">
+                  <a href="#" class="def-btn yellow-def-btn">
+                    Смотреть прайс-лист
+                  </a>
+                  <span>Смотреть прайс-лист</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 services-advantages-card">
+            <div class="card">
+              <img src="img/services-tabs/12.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Изготовление кран-балок
+                  от 15 рабочих дней</h5>
+                <p class="card-text">Такие производственные сроки достигаются благодаря наличию на нашем складе металла,
+                  концевых балок и других комплектующих крана.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 services-advantages-card">
+            <div class="card">
+              <img src="img/services-tabs/13.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Выгодная цена</h5>
+                <p class="card-text">Все Гарантия на любую кран-балку UNIQ составляет 2 года с момента её ввода в
+                  эксплуатацию, что позволяет использовать наши краны без лишних опасений в течение продолжительного
+                  времени./p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 services-advantages-card">
+            <div class="card">
+              <img src="img/services-tabs/14.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Только болтовое соединение</h5>
+                <p class="card-text">Все кран-балки UNIQ собираются с использованием болтового соединения, что
+                  обеспечивает удобство и простоту проведения монтажных работ.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 services-advantages-card">
+            <div class="card">
+              <img src="img/services-tabs/15.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Огромный выбор цветов
+                  для кран-балки</h5>
+                <p class="card-text">Мы предоставляем вам возможность самостоятельно выбрать цвет вашего крана. Внесите
+                  индивидуальность в ваше рабочее пространство, с помощью программы “Ваш кран – ваш цвет”</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 services-advantages-card">
+            <div class="card">
+              <img src="img/services-tabs/16.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">БЕСПЛАТНЫЙ* выезд эксперта</h5>
+                <p class="card-text">Заказывая кран-балку необходимо быть уверенным в точности расчётов, оптимальном и
+                  максимально экономном решении. Минимизация рисков при заказе грузоподъёмного оборудования наша
+                  работа. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="complectation">
+      <div class="container">
+        <h2 class="inner-title">
+          Комплектация
+        </h2>
+        <p>
+          Несмотря на то, что козловой кран является сложным техническим устройством, заказать его в нашей компании не
+          составит никакого труда. Для минимизации риска ошибок при заказе козлового крана мы предлагаем ответить на ряд
+          простых вопросов. Именно ответы на эти вопросы будут определять технические требования необходимого
+          оборудования.
+          <br>
+          Практически любой козловой кран состоит из множества элементов, о которых в компании UNIQ знают всё. Кроме
+          вышеуказаных компонентов существует так же 10 аспектов, которые и формируют стоимость козлового крана. Для
+          того, чтобы узнать какая будет итоговая цена на козловой кран, необходимо сделать выбор по каждому из
+          следующих пунктов:
+        </p>
+        <h3 class="inner-small-title">
+          Комплект поставки опорной кран-балки с электрическим типом управления:
+        </h3>
+        <p>
+          Стандартный комплект поставки опорной электрической кран-балки от завода UNIQ CRANE включает в себя следующие
+          изделия и компоненты
+        </p>
+        <div class="row">
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="complectation-card">
+              <div class="compectation-image-wrap">
+                <img src="img/complectation/1.png" alt="">
+              </div>
+              <div class="complectation-card-body">
+                Несущая, пролётная балка
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="complectation-card">
+              <div class="compectation-image-wrap">
+                <img src="img/complectation/2.png" alt="">
+              </div>
+              <div class="complectation-card-body">
+                Несущая, пролётная балка
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="complectation-card">
+              <div class="compectation-image-wrap">
+                <img src="img/complectation/3.png" alt="">
+              </div>
+              <div class="complectation-card-body">
+                Несущая, пролётная балка
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="complectation-card">
+              <div class="compectation-image-wrap">
+                <img src="img/complectation/4.png" alt="">
+              </div>
+              <div class="complectation-card-body">
+                Несущая, пролётная балка
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="complectation-card">
+              <div class="compectation-image-wrap">
+                <img src="img/complectation/1.png" alt="">
+              </div>
+              <div class="complectation-card-body">
+                Несущая, пролётная балка
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="complectation-card">
+              <div class="compectation-image-wrap">
+                <img src="img/complectation/1.png" alt="">
+              </div>
+              <div class="complectation-card-body">
+                Несущая, пролётная балка
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="complectation-card">
+              <div class="compectation-image-wrap">
+                <img src="img/complectation/1.png" alt="">
+              </div>
+              <div class="complectation-card-body">
+                Несущая, пролётная балка
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="inner-small-title">
+          Комплект поставки опорной кран-балки с ручным типом управления:
+        </h3>
+        <p>
+          Стандартный комплект поставки опорной ручной кран-балки от завода UNIQ CRANE включает в себя следующие изделия
+          и компоненты
+        </p>
+        <div class="row">
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="complectation-card">
+              <div class="compectation-image-wrap">
+                <img src="img/complectation/1.png" alt="">
+              </div>
+              <div class="complectation-card-body">
+                Несущая, пролётная балка
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="complectation-card">
+              <div class="compectation-image-wrap">
+                <img src="img/complectation/2.png" alt="">
+              </div>
+              <div class="complectation-card-body">
+                Несущая, пролётная балка
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="complectation-card">
+              <div class="compectation-image-wrap">
+                <img src="img/complectation/3.png" alt="">
+              </div>
+              <div class="complectation-card-body">
+                Несущая, пролётная балка
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="complectation-card">
+              <div class="compectation-image-wrap">
+                <img src="img/complectation/4.png" alt="">
+              </div>
+              <div class="complectation-card-body">
+                Несущая, пролётная балка
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="complectation-card">
+              <div class="compectation-image-wrap">
+                <img src="img/complectation/1.png" alt="">
+              </div>
+              <div class="complectation-card-body">
+                Несущая, пролётная балка
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <h2 class="inner-title">
+          Мостовые краны
+        </h2>
+        <p>
+          Кран мостовой представляет собой масштабную балочную систему для работы с крупногабаритными и тяжелыми
+          грузами.
+          Конструкция крана подразумевает перемещение концевых тележек/балок, на которые опираются/подвешиваются балки,
+          что позволяет перемещать различные грузы в стеснённых условиях цеха или склада, не занимая много полезного
+          пространства и не мешая работе иных механизмов.
+        </p>
+        <div class="mostovie-krany-row row">
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="mostovie-krany-type">
+              <span class="krany-number">
+                0.5
+              </span>
+              <img src="img/mostovie-krany/3.png" alt="">
+              <div class="mostovie-krany-text-box">
+                <h5>
+                  Козловой кран
+                </h5>
+                <p>1 т</p>
+              </div>
+
+              <img src="img/chevron-red.png" alt="" class="mostovie-krany-chevron-right">
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="mostovie-krany-type">
+              <span class="krany-number">
+                0.5
+              </span>
+              <img src="img/mostovie-krany/3.png" alt="">
+              <div class="mostovie-krany-text-box">
+                <h5>
+                  Козловой кран
+                </h5>
+                <p>1 т</p>
+              </div>
+
+              <img src="img/chevron-red.png" alt="" class="mostovie-krany-chevron-right">
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="mostovie-krany-type">
+              <span class="krany-number">
+                0.5
+              </span>
+              <img src="img/mostovie-krany/3.png" alt="">
+              <div class="mostovie-krany-text-box">
+                <h5>
+                  Козловой кран
+                </h5>
+                <p>1 т</p>
+              </div>
+
+              <img src="img/chevron-red.png" alt="" class="mostovie-krany-chevron-right">
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="mostovie-krany-type">
+              <span class="krany-number">
+                0.5
+              </span>
+              <img src="img/mostovie-krany/3.png" alt="">
+              <div class="mostovie-krany-text-box">
+                <h5>
+                  Козловой кран
+                </h5>
+                <p>1 т</p>
+              </div>
+
+              <img src="img/chevron-red.png" alt="" class="mostovie-krany-chevron-right">
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="mostovie-krany-type">
+              <span class="krany-number">
+                0.5
+              </span>
+              <img src="img/mostovie-krany/3.png" alt="">
+              <div class="mostovie-krany-text-box">
+                <h5>
+                  Козловой кран
+                </h5>
+                <p>1 т</p>
+              </div>
+
+              <img src="img/chevron-red.png" alt="" class="mostovie-krany-chevron-right">
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="mostovie-krany-type">
+              <span class="krany-number">
+                0.5
+              </span>
+              <img src="img/mostovie-krany/3.png" alt="">
+              <div class="mostovie-krany-text-box">
+                <h5>
+                  Козловой кран
+                </h5>
+                <p>1 т</p>
+              </div>
+
+              <img src="img/chevron-red.png" alt="" class="mostovie-krany-chevron-right">
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="mostovie-krany-type">
+              <span class="krany-number">
+                0.5
+              </span>
+              <img src="img/mostovie-krany/3.png" alt="">
+              <div class="mostovie-krany-text-box">
+                <h5>
+                  Козловой кран
+                </h5>
+                <p>1 т</p>
+              </div>
+
+              <img src="img/chevron-red.png" alt="" class="mostovie-krany-chevron-right">
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="mostovie-krany-type">
+              <span class="krany-number">
+                0.5
+              </span>
+              <img src="img/mostovie-krany/3.png" alt="">
+              <div class="mostovie-krany-text-box">
+                <h5>
+                  Козловой кран
+                </h5>
+                <p>1 т</p>
+              </div>
+
+              <img src="img/chevron-red.png" alt="" class="mostovie-krany-chevron-right">
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="mostovie-krany-type">
+              <span class="krany-number">
+                0.5
+              </span>
+              <img src="img/mostovie-krany/3.png" alt="">
+              <div class="mostovie-krany-text-box">
+                <h5>
+                  Козловой кран
+                </h5>
+                <p>1 т</p>
+              </div>
+
+              <img src="img/chevron-red.png" alt="" class="mostovie-krany-chevron-right">
+            </div>
+          </div>
+          <div class="col-lg-4 coll-small col-xl-3 col-md-6">
+            <div class="mostovie-krany-type">
+              <span class="krany-number">
+                0.5
+              </span>
+              <img src="img/mostovie-krany/3.png" alt="">
+              <div class="mostovie-krany-text-box">
+                <h5>
+                  Козловой кран
+                </h5>
+                <p>1 т</p>
+              </div>
+
+              <img src="img/chevron-red.png" alt="" class="mostovie-krany-chevron-right">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pricelist-content ">
+      <div class="container">
+        <h2 class="inner-title">
+          Опорные кран-балки с электрическим типом управления
+        </h2>
+        <p>
+          В данном разделе указаны начальные стоимости кран-балок. Данные цены не окончательны и могут быть изменены.
+          Что бы узнать точную стоимость на интересующую Вас модель кран-балки обращайтесь в отдел продаж по телефону +7
+          (495) 540 50 53.
+        </p>
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="inner-small-title">Опорные электрические кран-балки</h3>
+            <div class="overlay  second-table">
+              <table>
+                <thead>
+                <tr>
+                  <td></td>
+                  <td>Грузоподъемность</td>
+                  <td>Метраж</td>
+                  <td>Цена</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>
+                    <img src="img/prices/1.jpg" alt="">
+                  </td>
+                  <td>
+                    от 0,5 до 20 т.
+                  </td>
+                  <td>до 4,5 м.</td>
+                  <td>от 143 880₽</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/prices/1.jpg" alt="">
+                  </td>
+                  <td>
+                    от 0,5 до 20 т.
+                  </td>
+                  <td>до 4,5 м.</td>
+                  <td>от 143 880₽</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/prices/1.jpg" alt="">
+                  </td>
+                  <td>
+                    от 0,5 до 20 т.
+                  </td>
+                  <td>до 4,5 м.</td>
+                  <td>от 143 880₽</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/prices/1.jpg" alt="">
+                  </td>
+                  <td>
+                    от 0,5 до 20 т.
+                  </td>
+                  <td>до 4,5 м.</td>
+                  <td>от 143 880₽</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/prices/1.jpg" alt="">
+                  </td>
+                  <td>
+                    от 0,5 до 20 т.
+                  </td>
+                  <td>до 4,5 м.</td>
+                  <td>от 143 880₽</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="inner-small-title">Опорные электрические кран-балки</h3>
+            <div class="overlay  second-table">
+              <table>
+                <thead>
+                <tr>
+                  <td></td>
+                  <td>Грузоподъемность</td>
+                  <td>Метраж</td>
+                  <td>Цена</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>
+                    <img src="img/prices/1.jpg" alt="">
+                  </td>
+                  <td>
+                    от 0,5 до 20 т.
+                  </td>
+                  <td>до 4,5 м.</td>
+                  <td>от 143 880₽</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/prices/1.jpg" alt="">
+                  </td>
+                  <td>
+                    от 0,5 до 20 т.
+                  </td>
+                  <td>до 4,5 м.</td>
+                  <td>от 143 880₽</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/prices/1.jpg" alt="">
+                  </td>
+                  <td>
+                    от 0,5 до 20 т.
+                  </td>
+                  <td>до 4,5 м.</td>
+                  <td>от 143 880₽</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/prices/1.jpg" alt="">
+                  </td>
+                  <td>
+                    от 0,5 до 20 т.
+                  </td>
+                  <td>до 4,5 м.</td>
+                  <td>от 143 880₽</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/prices/1.jpg" alt="">
+                  </td>
+                  <td>
+                    от 0,5 до 20 т.
+                  </td>
+                  <td>до 4,5 м.</td>
+                  <td>от 143 880₽</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="def-btn-wrap under-table-btn">
+
+          <a href="#" class="def-btn yellow-def-btn">
+            Оставить запрос
+          </a>
+          <span>Оставить запрос</span>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+
+      <div class="factory-text-wrap">
+        <p>
+          текст
+        </p>
+      </div>
+      <div class="row factory-gallery">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div>
+            <a data-fslightbox="gallery1" class="gallery-wrap gallery-image-wrap" href="img/factory-page/1.jpg">
+              <img src="img/factory-page/1.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="">
+            <a class="gallery-wrap gallery-video-wrap" data-fslightbox="gallery2"
+               href="https://www.youtube.com/watch?v=SGJWckwx3h8">
+              <img src="img/factory-page/2.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="">
+            <a class="gallery-wrap gallery-image-wrap" data-fslightbox="gallery1" href="img/factory-page/3.jpg">
+              <img src="img/factory-page/3.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="">
+            <a class="gallery-wrap gallery-video-wrap" data-fslightbox="gallery2" href="img/factory-page/4.jpg">
+              <img src="img/factory-page/4.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="">
+            <a class="gallery-wrap gallery-image-wrap" data-fslightbox="gallery1" href="img/factory-page/5.jpg">
+              <img src="img/factory-page/5.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="">
+            <a class="gallery-wrap gallery-video-wrap" data-fslightbox="gallery2" href="img/factory-page/6.jpg">
+              <img src="img/factory-page/6.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="">
+            <a class="gallery-wrap gallery-image-wrap" data-fslightbox="gallery1" href="img/factory-page/7.jpg">
+              <img src="img/factory-page/7.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="">
+            <a class="gallery-wrap gallery-video-wrap" data-fslightbox="gallery2" href="img/factory-page/8.jpg">
+              <img src="img/factory-page/8.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="">
+            <a class="gallery-wrap gallery-image-wrap" data-fslightbox="gallery2" href="img/factory-page/9.jpg">
+              <img src="img/factory-page/9.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="">
+            <a class="gallery-wrap gallery-video-wrap" data-fslightbox="gallery1" href="img/factory-page/10.jpg">
+              <img src="img/factory-page/10.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="">
+            <a class="gallery-wrap gallery-image-wrap" data-fslightbox="gallery2" href="img/factory-page/11.jpg">
+              <img src="img/factory-page/11.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="">
+            <a class="gallery-wrap gallery-video-wrap" data-fslightbox="gallery1" href="img/factory-page/12.jpg">
+              <img src="img/factory-page/12.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="section main-footer position-relative">
+  <div class="container footer-container">
+    <img src="img/contacts-page/footer-bg.png" class="background-image position-absolute" alt="">
+    <div class="row">
+      <div class="col-lg-6 position-relative">
+        <h2 class="footer-title white ">
+          Завод кранов UNIQ CRANE. <br> С 2011 года производим краны. <br> Качественно, быстро и надёжно. <br>
+        </h2>
+        <p class="main-footer-text">
+          UNIQ CRANE – производственная компания с высокими стандартами. Мы предлагаем комплексные решения в области
+          грузоподъёмного оборудования, начиная от разработки проектной документации и заканчивая сдачей кранов в
+          эксплуатацию.
+        </p>
+        <div class="row footer-features-wrapper">
+          <div class="col-lg-4 col-md-4">
+
+            <h2 class="footer-feature-min-number purecounter" data-purecounter-start="0" data-purecounter-end="7"></h2>
+            <p class="footer-feature-min-title">
+              Лет <br>
+              работы
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+
+            <h2 class="footer-feature-min-number purecounter" data-purecounter-start="0" data-purecounter-end="418"></h2>
+            <p class="footer-feature-min-title">
+              Клиентов
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+
+            <h2 class="footer-feature-min-number purecounter" data-purecounter-start="0" data-purecounter-end="637"></h2>
+            <p class="footer-feature-min-title">
+              Отгружено <br>
+              кранов
+            </p>
+          </div>
+        </div>
+        <a class="more-about-awards-link footer-awards-link white" href="#">Узнать все о компании <img
+          src="img/chevron-right-white.png" class="ml-5 pb-1" alt=""></a>
+        <div class="copyright">
+          <div class="d-flex justify-content-between">
+                                <span>
+                                © UNIQ CRANE, 2019
+                            </span>
+            <span>
+                                Разработка сайта — Neuron Group
+                            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 offset-lg-1">
+        <h2 class="footer-title footer__right__side__title white">
+          Бесплатный* <br> выезд специалиста
+        </h2>
+        <p class="main-footer-second-col-text">
+          Нет времени изучать? Мы сами перезвоним и проконсультируем по любым вопросам
+        </p>
+        <form class="footer-right-col-form">
+          <label class=" position-relative">
+            <input class="footer-form-control able-to-type" name="name" type="text"
+                   placeholder="Ваше имя">
+            <span class="validation-error position-absolute">Необходимо заполнить <img
+              src="img/footer/input-validation-error.svg" alt=""></span>
+          </label>
+          <label class=" position-relative">
+            <input class="footer-form-control able-to-type" name="number" type="number"
+                   placeholder="Номер телефона">
+            <span class="validation-error position-absolute">Необходимо заполнить <img
+              src="img/footer/input-validation-error.svg" alt=""></span>
+          </label>
+          <label class=" position-relative">
+            <input class="footer-form-control able-to-type" name="city" type="text"
+                   placeholder="Город или область">
+            <span class="validation-error position-absolute">Необходимо заполнить <img
+              src="img/footer/input-validation-error.svg" alt=""></span>
+          </label>
+          <button type="submit" class="submit-btn main-footer-def-btn  def-btn-wrap">
+
+            <a href="" class="footer__def_yellow_btn position-relative def-btn yellow-def-btn">
+              Отправить запрос
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <span>Отправить запрос</span>
+
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<script src="js/scrolllock.js"></script>
+<!--<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>-->
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

@@ -1,0 +1,1025 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i,900,900i&display=swap"
+        rel="stylesheet">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=a024a314-036e-4d6e-8d1f-0b5fa78a791f&lang=ru_RU"
+          type="text/javascript">
+  </script>
+  <script src="https://kit.fontawesome.com/844c0302d0.js" crossorigin="anonymous"></script>
+  <link rel="manifest" href=" site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <!-- Place favicon.ico in the root directory -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="css/libs.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="secondary-page services-page history-page">
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<div class="right-pop-up-container">
+  <div class="right-pop-up-wrapper position-fixed">
+    <div class="right-pop-up col-lg-10 col-md-12 col-sm-12 col-12">
+      <div class="close-button col-lg-10 col-md-12 col-sm-12 col-12">
+      <span class="float-right">
+      &#10006;
+        </span>
+      </div>
+      <h3 class="pop-up-title">
+        Оставить запрос
+      </h3>
+      <div class="pop-up-subtitle">
+        Оставьте заявку, и мы перезвоним вам <br>
+        и проконсультируем по любым вопросам
+      </div>
+      <form class="footer-right-col-form modal-form ">
+        <label class=" position-relative">
+          <input class="footer-form-control able-to-type" name="name" type="text" placeholder="Ваше имя">
+          <span class="validation-error position-absolute">Необходимо заполнить <img
+            src="img/footer/input-validation-error.svg" alt=""></span>
+        </label>
+        <label class=" position-relative">
+          <input class="footer-form-control able-to-type" name="number" type="email" placeholder="Электронная почта">
+          <span class="validation-error position-absolute">Необходимо заполнить <img
+            src="img/footer/input-validation-error.svg" alt=""></span>
+        </label>
+        <label class=" position-relative">
+          <input class="footer-form-control able-to-type" name="city" type="text" placeholder="Город или область">
+          <span class="validation-error position-absolute">Необходимо заполнить <img
+            src="img/footer/input-validation-error.svg" alt=""></span>
+        </label>
+        <label class="position-relative">
+          <textarea name="" placeholder="Ваш вопрос" class="footer-form-control"></textarea>
+        </label>
+        <label class="file-label ">
+          <input type="file" class="position-absolute">
+          <span class="choose-the-file">
+  Прикрепить файл
+        </span>
+        </label>
+        <label class="checkbox-label ">
+          <input type="checkbox">
+          <span>Согласен с  <a href="#"> условиями обработки </a>   персональных данных</span>
+        </label>
+        <div class="catch-wrap ">
+          <img src="img/captcha.jpg" alt="">
+        </div>
+        <button type="submit" class="submit-btn main-footer-def-btn  def-btn-wrap">
+
+          <a href="" class="def-btn yellow-def-btn">
+            Отправить запрос
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <span>Отправить запрос</span>
+
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+<header class="header">
+  <div class="container position-relative">
+    <div class="row align-items-center">
+      <a href="#" class="logo-wrap col-lg-1 col-4 col-sm-4 col-md-4">
+        <img src="img/uniqlogo.svg" alt="">
+      </a>
+      <nav class="d-flex align-items-center col-4 col-sm-4 col-lg-8">
+        <div class="second-logo d-flex col-lg-3 align-items-center">
+          <div class="burger-icon mr-2">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2 class="header-cranes">Краны</h2>
+        </div>
+        <div class="header-nav col-lg-9 ">
+          <ul class="d-flex align-items-center justify-content-between">
+            <li><a class="active" href="#">Прайс-лист</a></li>
+            <li><a href="#">Оборудование</a></li>
+            <li><a href="#">Сервис</a></li>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+      <a href="tel:+74956554544" class="col-lg-2 col-sm-1 col-1 col-md-4 header-phone-number">
+        +7 495 655 45 44
+      </a>
+      <div class="burger col-md-1 col-5 col-sm-1">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="def-btn-wrap head-def-btn float-right position-absolute">
+
+        <a href="#" class="def-btn yellow-def-btn">
+          Оставить запрос
+        </a>
+        <span>Оставить запрос</span>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="history__page__head">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb history-page-breadcrumbs">
+          <li class="breadcrumb-item"><a href="#">Главная</a></li>
+          <li class="breadcrumb-item"><a href="#">Мостовые краны</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Мостовые однобалочные краны</li>
+        </ol>
+        <a class="history__page__go__back" href="#">
+          <img src="img/chevron-right-white.png" class="history__page__go__back_img" alt="">
+          Назад
+        </a>
+        <h1 class="main-inner-title">
+          Услуги
+        </h1>
+        <div class="main-inner-subtext">
+          Конструкция крана подразумевает перемещение концевых тележек/балок, на которые опираются/подвешиваются балки,
+          что позволяет перемещать различные грузы в стеснённых условиях цеха.
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="history-page-navbar-wrapper services-navbar position-relative">
+    <div class="container">
+      <div class="d-flex align-items-center">
+        <div class="nav-burger mr-3">
+          <span></span><span></span><span></span>
+        </div>
+        <h2> Дополнительные ссылки</h2>
+      </div>
+
+      <nav class=" navbar tab-bar-box services-inner-navbar navbar-light row">
+        <a class="navbar-brand tab-bar col active" href="#">
+          Описание
+        </a>
+        <a class="navbar-brand tab-bar col" href="#">
+          Возможности
+        </a>
+        <a class="navbar-brand tab-bar col" href="#">
+          Технологии
+        </a>
+        <a class="navbar-brand tab-bar col" href="#">
+          Преимущества
+        </a>
+        <a class="navbar-brand tab-bar col" href="#">
+          Документы
+        </a>
+        <a class="navbar-brand tab-bar col" href="#">
+          Стоимость
+        </a>
+        <a class="navbar-brand tab-bar col" href="#">
+          Акции
+        </a>
+      </nav>
+    </div>
+  </div>
+  <section class="main-inner-content  controlled-bytabs-container">
+    <div class="active" >
+      <div class="container">
+        <h2 class="inner-title">
+          Описание
+        </h2>
+        <div class="row">
+          <div class="desc-tab-col">
+            <img src="img/services-tabs/2.jpg" alt="">
+
+            <ul>
+              <li>Сначала осуществляется сборка металлоконструкции кран-балки на специальных опорах.</li>
+              <li>Проводятся дополнительные наземные испытания по работтоспособности кран-балки</li>
+              <li>Кран-балка поднимается на опорные, либо подвесные металлоконструкции цеха.</li>
+            </ul>
+
+            <h2 class="desc-inner-title">
+              Заголовок Н2
+            </h2>
+            <ol>
+              <li>Длина пролёта (определяется шириной цеха, куда будет установлен кран)</li>
+              <li>Грузоподъёмность (определяет возможность нагрузок)</li>
+              <li>Высота подъёма (определяет расстояние от крюка до пола)</li>
+            </ol>
+          </div>
+        </div>
+        <div class="desc-caution align-items-center d-flex">
+          <img src="img/services-tabs/3.svg" alt="">
+          <p>Для того, чтобы выбрать опорную кран-балку, которая будет максимально подходить Вашим требованиям,
+            необходимо ответить на ряд вопросов по характеристикам крана.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <h2 class="inner-title">
+          Возможности
+        </h2>
+        <p class="def-txt">
+          Компания UNIQ CRANE осуществляет монтаж кран-балок любой сложности. К списку такого оборудования можно
+          отнести:
+        </p>
+        <div class="row possibility-row">
+          <div class="col-12 possibility-card">
+            <div class="card mb-3">
+              <div class="row align-items-center no-gutters">
+                <div class="col-lg-4">
+                  <img src="img/services-tabs/4.jpg" class="card-img" alt="">
+                </div>
+                <div class="col-lg-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Доставка оборудования в монтажную зону</h5>
+                    <p class="card-text">Завод грузоподъёмного оборудования UNIQ CRANE имеет ряд бесспорно
+                      привлекательных преимуществ. Благодаря слаженной работе наших специалистов и своевременным
+                      поставкам качественного оборудования мы приобрели уже более 80 постоянных клиентов, которые на
+                      регулярной основе осуществляют закупку кранового и сопутствующего оборудования. Среди наших
+                      клиентов множество медийных организаций и крупных холдингов, в числе которых:</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 possibility-card">
+            <div class="card mb-3">
+              <div class="row align-items-center no-gutters">
+                <div class="col-lg-4">
+                  <img src="img/services-tabs/4.jpg" class="card-img" alt="">
+                </div>
+                <div class="col-lg-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Доставка оборудования в монтажную зону</h5>
+                    <p class="card-text">Завод грузоподъёмного оборудования UNIQ CRANE имеет ряд бесспорно
+                      привлекательных преимуществ. Благодаря слаженной работе наших специалистов и своевременным
+                      поставкам качественного оборудования мы приобрели уже более 80 постоянных клиентов, которые на
+                      регулярной основе осуществляют закупку кранового и сопутствующего оборудования. Среди наших
+                      клиентов множество медийных организаций и крупных холдингов, в числе которых:</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 possibility-card">
+            <div class="card mb-3">
+              <div class="row align-items-center no-gutters">
+                <div class="col-lg-4">
+                  <img src="img/services-tabs/4.jpg" class="card-img" alt="">
+                </div>
+                <div class="col-lg-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Доставка оборудования в монтажную зону</h5>
+                    <p class="card-text">Завод грузоподъёмного оборудования UNIQ CRANE имеет ряд бесспорно
+                      привлекательных преимуществ. Благодаря слаженной работе наших специалистов и своевременным
+                      поставкам качественного оборудования мы приобрели уже более 80 постоянных клиентов, которые на
+                      регулярной основе осуществляют закупку кранового и сопутствующего оборудования. Среди наших
+                      клиентов множество медийных организаций и крупных холдингов, в числе которых:</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <h2 class="inner-title">
+          Технология
+        </h2>
+        <p class="mb-4 def-txt">
+          Компания UNIQ CRANE осуществляет монтаж кран-балок любой сложности. К списку такого оборудования можно
+          отнести:
+        </p>
+        <div class="row technology-row">
+          <div class="col-12 mb-4 technology-card">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">ЭТАП 1</h5>
+                <h6 class="card-subtitle mb-4">Доставка оборудования в монтажную зону</h6>
+                <p class="card-text">Завод грузоподъёмного оборудования UNIQ CRANE имеет ряд бесспорно привлекательных
+                  преимуществ. Благодаря слаженной работе наших специалистов и своевременным поставкам качественного
+                  оборудования мы приобрели уже более 80 постоянных клиентов, которые на регулярной основе осуществляют
+                  закупку кранового и сопутствующего оборудования. Среди наших клиентов множество медийных организаций и
+                  крупных холдингов, в числе которых:</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-4 technology-card">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">ЭТАП 1</h5>
+                <h6 class="card-subtitle mb-4">Доставка оборудования в монтажную зону</h6>
+                <p class="card-text">Завод грузоподъёмного оборудования UNIQ CRANE имеет ряд бесспорно привлекательных
+                  преимуществ. Благодаря слаженной работе наших специалистов и своевременным поставкам качественного
+                  оборудования мы приобрели уже более 80 постоянных клиентов, которые на регулярной основе осуществляют
+                  закупку кранового и сопутствующего оборудования. Среди наших клиентов множество медийных организаций и
+                  крупных холдингов, в числе которых:</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-4 technology-card">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">ЭТАП 1</h5>
+                <h6 class="card-subtitle mb-4">Доставка оборудования в монтажную зону</h6>
+                <p class="card-text">Завод грузоподъёмного оборудования UNIQ CRANE имеет ряд бесспорно привлекательных
+                  преимуществ. Благодаря слаженной работе наших специалистов и своевременным поставкам качественного
+                  оборудования мы приобрели уже более 80 постоянных клиентов, которые на регулярной основе осуществляют
+                  закупку кранового и сопутствующего оборудования. Среди наших клиентов множество медийных организаций и
+                  крупных холдингов, в числе которых:</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <h2 class="inner-title">
+          Преимущества
+        </h2>
+        <p class="def-txt">
+          Завод грузоподъёмного оборудования UNIQ CRANE имеет ряд бесспорно привлекательных преимуществ. Благодаря
+          слаженной работе наших специалистов и своевременным поставкам качественного оборудования мы приобрели уже
+          более 80 постоянных клиентов, которые на регулярной основе осуществляют закупку кранового и сопутствующего
+          оборудования. Среди наших клиентов множество медийных организаций и крупных холдингов, в числе которых:
+        </p>
+        <div class="row advantages-cards-row">
+          <div class="col-lg-4 services-advantages-card">
+            <div class="card">
+              <img src="img/services-tabs/11.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Выгодная цена</h5>
+                <p class="card-text">Минимальная стоимость кран-балки всего 71 880 рублей</p>
+                <div class="def-btn-wrap">
+                  <a href="#" class="def-btn yellow-def-btn">
+                    Смотреть прайс-лист
+                  </a>
+                  <span>Смотреть прайс-лист</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 services-advantages-card">
+            <div class="card">
+              <img src="img/services-tabs/12.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Изготовление кран-балок
+                  от 15 рабочих дней</h5>
+                <p class="card-text">Такие производственные сроки достигаются благодаря наличию на нашем складе металла,
+                  концевых балок и других комплектующих крана.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 services-advantages-card">
+            <div class="card">
+              <img src="img/services-tabs/13.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Выгодная цена</h5>
+                <p class="card-text">Все Гарантия на любую кран-балку UNIQ составляет 2 года с момента её ввода в
+                  эксплуатацию, что позволяет использовать наши краны без лишних опасений в течение продолжительного
+                  времени./p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 services-advantages-card">
+            <div class="card">
+              <img src="img/services-tabs/14.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Только болтовое соединение</h5>
+                <p class="card-text">Все кран-балки UNIQ собираются с использованием болтового соединения, что
+                  обеспечивает удобство и простоту проведения монтажных работ.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 services-advantages-card">
+            <div class="card">
+              <img src="img/services-tabs/15.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Огромный выбор цветов
+                  для кран-балки</h5>
+                <p class="card-text">Мы предоставляем вам возможность самостоятельно выбрать цвет вашего крана. Внесите
+                  индивидуальность в ваше рабочее пространство, с помощью программы “Ваш кран – ваш цвет”</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 services-advantages-card">
+            <div class="card">
+              <img src="img/services-tabs/16.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">БЕСПЛАТНЫЙ* выезд эксперта</h5>
+                <p class="card-text">Заказывая кран-балку необходимо быть уверенным в точности расчётов, оптимальном и
+                  максимально экономном решении. Минимизация рисков при заказе грузоподъёмного оборудования наша
+                  работа. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="faq-content">
+      <div class="container">
+        <div class="faq-content-divider">
+          <h2 class="inner-title faq-title">
+            Госты, по которым производят краны и тали
+          </h2>
+          <div class="inner-content">
+            <a href="#" class="d-flex align-items-center docs-inner">
+              <img src="img/pdf.svg" alt="">
+              <div class="text-box">
+                <h5 class="title">
+                  Краны мостовые электрические однобалочные опорные
+                </h5>
+                <p class="caption">
+                  ГОСТ 22045-89
+                </p>
+              </div>
+            </a>
+            <a href="#" class="d-flex align-items-center docs-inner">
+              <img src="img/doc.svg" alt="">
+              <div class="text-box">
+                <h5 class="title">
+                  Краны мостовые электрические однобалочные опорные
+                </h5>
+                <p class="caption">
+                  ГОСТ 22045-89
+                </p>
+              </div>
+            </a>
+            <a href="#" class="d-flex align-items-center docs-inner">
+              <img src="img/pdf.svg" alt="">
+              <div class="text-box">
+                <h5 class="title">
+                  Краны мостовые электрические однобалочные опорные
+                </h5>
+                <p class="caption">
+                  ГОСТ 22045-89
+                </p>
+              </div>
+            </a>
+            <a href="#" class="d-flex align-items-center docs-inner">
+              <img src="img/xls.svg" alt="">
+              <div class="text-box">
+                <h5 class="title">
+                  Краны мостовые электрические однобалочные опорные
+                </h5>
+                <p class="caption">
+                  ГОСТ 22045-89
+                </p>
+              </div>
+            </a>
+            <a href="#" class="d-flex align-items-center docs-inner">
+              <img src="img/pdf.svg" alt="">
+              <div class="text-box">
+                <h5 class="title">
+                  Краны мостовые электрические однобалочные опорные
+                </h5>
+                <p class="caption">
+                  ГОСТ 22045-89
+                </p>
+              </div>
+            </a>
+            <a href="#" class="d-flex align-items-center docs-inner">
+              <img src="img/pdf.svg" alt="">
+              <div class="text-box">
+                <h5 class="title">
+                  Краны мостовые электрические однобалочные опорные
+                </h5>
+                <p class="caption">
+                  ГОСТ 22045-89
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="faq-content-divider">
+          <h2 class="inner-title faq-title">
+            Нормы и правила
+          </h2>
+          <div class="inner-content">
+            <a href="#" class="d-flex align-items-center docs-inner">
+              <img src="img/pdf.svg" alt="">
+              <div class="text-box">
+                <h5 class="title">
+                  Краны мостовые электрические однобалочные опорные
+                </h5>
+                <p class="caption">
+                  ГОСТ 22045-89
+                </p>
+              </div>
+            </a>
+            <a href="#" class="d-flex align-items-center docs-inner">
+              <img src="img/xls.svg" alt="">
+              <div class="text-box">
+                <h5 class="title">
+                  Краны мостовые электрические однобалочные опорные
+                </h5>
+                <p class="caption">
+                  ГОСТ 22045-89
+                </p>
+              </div>
+            </a>
+            <a href="#" class="d-flex align-items-center docs-inner">
+              <img src="img/pdf.svg" alt="">
+              <div class="text-box">
+                <h5 class="title">
+                  Краны мостовые электрические однобалочные опорные
+                </h5>
+                <p class="caption">
+                  ГОСТ 22045-89
+                </p>
+              </div>
+            </a>
+            <a href="#" class="d-flex align-items-center docs-inner">
+              <img src="img/doc.svg" alt="">
+              <div class="text-box">
+                <h5 class="title">
+                  Краны мостовые электрические однобалочные опорные
+                </h5>
+                <p class="caption">
+                  ГОСТ 22045-89
+                </p>
+              </div>
+            </a>
+            <a href="#" class="d-flex align-items-center docs-inner">
+              <img src="img/pdf.svg" alt="">
+              <div class="text-box">
+                <h5 class="title">
+                  Краны мостовые электрические однобалочные опорные
+                </h5>
+                <p class="caption">
+                  ГОСТ 22045-89
+                </p>
+              </div>
+            </a>
+            <a href="#" class="d-flex align-items-center docs-inner">
+              <img src="img/pdf.svg" alt="">
+              <div class="text-box">
+                <h5 class="title">
+                  Краны мостовые электрические однобалочные опорные
+                </h5>
+                <p class="caption">
+                  ГОСТ 22045-89
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pricelist-content">
+      <div class="container">
+        <h2 class="price-list-title">
+          Опорные кран-балки с электрическим типом управления
+        </h2>
+        <div class="overlay  first-table">
+          <table>
+            <thead>
+            <tr>
+              <td>Грузоподъемность</td>
+              <td>до 4,5 м</td>
+              <td>до 7,5 м</td>
+              <td>до 10,5 м</td>
+              <td>до 13,5 м</td>
+              <td>до 16,5 м</td>
+              <td>до 19,5 м</td>
+              <td>до 24 м</td>
+              <td>до 28,5 м</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="def-btn-wrap under-table-btn">
+
+          <a href="#" class="def-btn yellow-def-btn">
+            Оставить запрос
+          </a>
+          <span>Оставить запрос</span>
+        </div>
+        <h2 class="price-list-title">
+          Опорные кран-балки с электрическим типом управления
+        </h2>
+        <div class="overlay  first-table">
+          <table>
+            <thead>
+            <tr>
+              <td>Грузоподъемность</td>
+              <td>до 4,5 м</td>
+              <td>до 7,5 м</td>
+              <td>до 10,5 м</td>
+              <td>до 13,5 м</td>
+              <td>до 16,5 м</td>
+              <td>до 19,5 м</td>
+              <td>до 24 м</td>
+              <td>до 28,5 м</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            <tr>
+              <td>1 т</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+              <td>128 880₽</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="def-btn-wrap under-table-btn">
+
+          <a href="#" class="def-btn yellow-def-btn">
+            Оставить запрос
+          </a>
+          <span>Оставить запрос</span>
+        </div>
+      </div>
+    </div>
+    <div class="container promotion-container">
+      <div class="col-lg-10">
+        <div class="row">
+          <div class="col-lg-7 promotion-inner-text-box">
+            <h3>
+              Скиидка 10%
+            </h3>
+            <h4>
+              При заказе второго крана
+            </h4>
+            <div class="def-btn-wrap">
+
+              <a href="#" class="def-btn yellow-def-btn">
+                Оставить запрос
+              </a>
+              <span>Оставить запрос</span>
+            </div>
+            <div class="sale-number">
+              10 <span>%</span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <img src="img/promotion/1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-10">
+        <div class="row">
+          <div class="col-lg-7 promotion-inner-text-box">
+            <h3>
+              Скиидка 10%
+            </h3>
+            <h4>
+              При заказе второго крана
+            </h4>
+            <div class="def-btn-wrap">
+
+              <a href="#" class="def-btn yellow-def-btn">
+                Оставить запрос
+              </a>
+              <span>Оставить запрос</span>
+            </div>
+            <div class="sale-number">
+              7 <span>%</span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <img src="img/promotion/2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-10">
+        <div class="row">
+          <div class="col-lg-7 promotion-inner-text-box">
+            <h3>
+              Скиидка 10%
+            </h3>
+            <h4>
+              При заказе второго крана
+            </h4>
+            <div class="def-btn-wrap">
+
+              <a href="#" class="def-btn yellow-def-btn">
+                Оставить запрос
+              </a>
+              <span>Оставить запрос</span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <img src="img/promotion/3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="section main-footer position-relative">
+  <div class="container footer-container">
+    <img src="img/contacts-page/footer-bg.png" class="background-image position-absolute" alt="">
+    <div class="row">
+      <div class="col-lg-6 position-relative">
+        <h2 class="footer-title white ">
+          Завод кранов UNIQ CRANE. <br> С 2011 года производим краны. <br> Качественно, быстро и надёжно. <br>
+        </h2>
+        <p class="main-footer-text">
+          UNIQ CRANE – производственная компания с высокими стандартами. Мы предлагаем комплексные решения в области
+          грузоподъёмного оборудования, начиная от разработки проектной документации и заканчивая сдачей кранов в
+          эксплуатацию.
+        </p>
+        <div class="row footer-features-wrapper">
+          <div class="col-lg-4 col-md-4">
+
+            <h2 class="footer-feature-min-number purecounter" data-purecounter-start="0" data-purecounter-end="7"></h2>
+            <p class="footer-feature-min-title">
+              Лет <br>
+              работы
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+
+            <h2 class="footer-feature-min-number purecounter" data-purecounter-start="0" data-purecounter-end="418"></h2>
+            <p class="footer-feature-min-title">
+              Клиентов
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+
+            <h2 class="footer-feature-min-number purecounter" data-purecounter-start="0" data-purecounter-end="637"></h2>
+            <p class="footer-feature-min-title">
+              Отгружено <br>
+              кранов
+            </p>
+          </div>
+        </div>
+        <a class="more-about-awards-link footer-awards-link white" href="#">Узнать все о компании <img
+          src="img/chevron-right-white.png" class="ml-5 pb-1" alt=""></a>
+        <div class="copyright">
+          <div class="d-flex justify-content-between">
+                                <span>
+                                © UNIQ CRANE, 2019
+                            </span>
+            <span>
+                                Разработка сайта — Neuron Group
+                            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 offset-lg-1">
+        <h2 class="footer-title footer__right__side__title white">
+          Бесплатный* <br> выезд специалиста
+        </h2>
+        <p class="main-footer-second-col-text">
+          Нет времени изучать? Мы сами перезвоним и проконсультируем по любым вопросам
+        </p>
+        <form class="footer-right-col-form">
+          <label class=" position-relative">
+            <input class="footer-form-control able-to-type" name="name" type="text"
+                   placeholder="Ваше имя">
+            <span class="validation-error position-absolute">Необходимо заполнить <img
+              src="img/footer/input-validation-error.svg" alt=""></span>
+          </label>
+          <label class=" position-relative">
+            <input class="footer-form-control able-to-type" name="number" type="number"
+                   placeholder="Номер телефона">
+            <span class="validation-error position-absolute">Необходимо заполнить <img
+              src="img/footer/input-validation-error.svg" alt=""></span>
+          </label>
+          <label class=" position-relative">
+            <input class="footer-form-control able-to-type" name="city" type="text"
+                   placeholder="Город или область">
+            <span class="validation-error position-absolute">Необходимо заполнить <img
+              src="img/footer/input-validation-error.svg" alt=""></span>
+          </label>
+          <button type="submit" class="submit-btn main-footer-def-btn  def-btn-wrap">
+
+            <a href="" class="footer__def_yellow_btn position-relative def-btn yellow-def-btn">
+              Отправить запрос
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <span>Отправить запрос</span>
+
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<script src="js/scrolllock.js"></script>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+

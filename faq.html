@@ -1,0 +1,589 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i,900,900i&display=swap"
+        rel="stylesheet">
+  <script src="https://kit.fontawesome.com/844c0302d0.js" crossorigin="anonymous"></script>
+  <link rel="manifest" href=" site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <!-- Place favicon.ico in the root directory -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="css/libs.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="secondary-page history-page">
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<div class="right-pop-up-container">
+  <div class="right-pop-up-wrapper position-fixed">
+    <div class="right-pop-up col-lg-10 col-md-12 col-sm-12 col-12">
+      <div class="close-button col-lg-10 col-md-12 col-sm-12 col-12">
+      <span class="float-right">
+      &#10006;
+        </span>
+      </div>
+      <h3 class="pop-up-title">
+        Оставить запрос
+      </h3>
+      <div class="pop-up-subtitle">
+        Оставьте заявку, и мы перезвоним вам <br>
+        и проконсультируем по любым вопросам
+      </div>
+      <form class="footer-right-col-form modal-form ">
+        <label class=" position-relative">
+          <input class="footer-form-control able-to-type" name="name" type="text" placeholder="Ваше имя">
+          <span class="validation-error position-absolute">Необходимо заполнить <img
+            src="img/footer/input-validation-error.svg" alt=""></span>
+        </label>
+        <label class=" position-relative">
+          <input class="footer-form-control able-to-type" name="number" type="email" placeholder="Электронная почта">
+          <span class="validation-error position-absolute">Необходимо заполнить <img
+            src="img/footer/input-validation-error.svg" alt=""></span>
+        </label>
+        <label class=" position-relative">
+          <input class="footer-form-control able-to-type" name="city" type="text" placeholder="Город или область">
+          <span class="validation-error position-absolute">Необходимо заполнить <img
+            src="img/footer/input-validation-error.svg" alt=""></span>
+        </label>
+        <label class="position-relative">
+          <textarea name="" placeholder="Ваш вопрос" class="footer-form-control"></textarea>
+        </label>
+        <label class="file-label ">
+          <input type="file" class="position-absolute">
+          <span class="choose-the-file">
+  Прикрепить файл
+        </span>
+        </label>
+        <label class="checkbox-label ">
+          <input type="checkbox">
+          <span>Согласен с  <a href="#"> условиями обработки </a>   персональных данных</span>
+        </label>
+        <div class="catch-wrap ">
+          <img src="img/captcha.jpg" alt="">
+        </div>
+        <button type="submit" class="submit-btn main-footer-def-btn  def-btn-wrap">
+
+          <a href="" class="def-btn yellow-def-btn">
+            Отправить запрос
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <span>Отправить запрос</span>
+
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+<header class="header">
+  <div class="container position-relative">
+    <div class="row align-items-center">
+      <a href="#" class="logo-wrap col-lg-1 col-4 col-sm-4 col-md-4">
+        <img src="img/uniqlogo.svg" alt="">
+      </a>
+      <nav class="d-flex align-items-center col-4 col-sm-4 col-lg-8">
+        <div class="second-logo d-flex col-lg-3 align-items-center">
+          <div class="burger-icon mr-2">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2 class="header-cranes">Краны</h2>
+        </div>
+        <div class="header-nav col-lg-9 ">
+          <ul class="d-flex align-items-center justify-content-between">
+            <li><a class="active" href="#">Прайс-лист</a></li>
+            <li><a href="#">Оборудование</a></li>
+            <li><a href="#">Сервис</a></li>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+      <a href="tel:+74956554544" class="col-lg-2 col-sm-1 col-1 col-md-4 header-phone-number">
+        +7 495 655 45 44
+      </a>
+      <div class="burger col-md-1 col-5 col-sm-1">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="def-btn-wrap head-def-btn float-right position-absolute">
+
+        <a href="#" class="def-btn yellow-def-btn">
+          Оставить запрос
+        </a>
+        <span>Оставить запрос</span>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="history__page__head">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb history-page-breadcrumbs">
+          <li class="breadcrumb-item"><a href="#">Главная</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Вопросы и ответы</li>
+        </ol>
+        <a class="history__page__go__back" href="#">
+          <img src="img/chevron-right-white.png" class="history__page__go__back_img" alt="">
+          Назад
+        </a>
+        <h1 class="main-inner-title">
+          Вопросы и ответы
+        </h1>
+        <form class="faq-search">
+          <label class="secondary-page-search-icon">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Поиск по справочнику">
+          </label>
+          <input type="submit" class="secondary-page-search" value="НАЙТИ">
+        </form>
+      </nav>
+    </div>
+  </div>
+  <div class="history-page-navbar-wrapper position-relative">
+    <div class="container">
+      <div class="d-flex align-items-center">
+        <div class="nav-burger mr-3">
+          <span></span><span></span><span></span>
+        </div>
+        <h2> Дополнительные ссылки</h2>
+      </div>
+
+      <nav class=" navbar justify-content-between navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="img/history-page/1.svg" class="d-inline-block align-top" alt="">
+          Информация
+        </a>
+        <a class="navbar-brand" href="#">
+          <img src="img/history-page/2.svg" class="d-inline-block align-top" alt="">
+          Новости
+        </a>
+        <a class="navbar-brand" href="#">
+          <img src="img/history-page/3.svg" class="d-inline-block align-top" alt="">
+          Акции
+        </a>
+        <a class="navbar-brand" href="#">
+          <img src="img/history-page/4.svg" class="d-inline-block align-top" alt="">
+          Прайс-листы
+        </a>
+        <a class="navbar-brand" href="#">
+          <img src="img/history-page/5.svg" class="d-inline-block align-top" alt="">
+          FAQ
+        </a>
+        <a class="navbar-brand" href="#">
+          <img src="img/history-page/6.svg" class="d-inline-block align-top" alt="">
+          Нормативные документы
+        </a>
+        <a class="navbar-brand" href="#">
+          <img src="img/history-page/7.svg" class="d-inline-block align-top" alt="">
+          Фото и видео
+        </a>
+      </nav>
+    </div>
+  </div>
+  <section class="main-inner-content">
+    <div class="faq-content">
+      <div class="container">
+        <div class="faq-content-divider">
+          <h2 class="inner-title faq-title">
+            Категория вопросов номер 1
+          </h2>
+          <div class="inner-page-wrapper">
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                      Краны мостовые электрические однобалочные опорные. Какой кран выбрать начинающему крановщику?
+                    </button>
+                  </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                     data-parent="#accordionExample">
+                  <div class="card-body">
+                    В мире существует огромное множество кранов и не всегда понятно какой из них лучше выбрать. Наше
+                    исчерпающее руководство поможет вам в составлении требований и поможет в подборе кранов. В мире
+                    существует огромное множество кранов и не всегда понятно какой из них лучше выбрать. Наше
+                    исчерпающее
+                    руководство поможет вам в составлении требований и поможет в подборе кранов.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                      Краны мостовые электрические однобалочные опорные. Какой кран выбрать начинающему крановщику?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Краны мостовые электрические однобалочные опорные. Какой кран выбрать начинающему крановщику?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseFour"
+                            aria-expanded="false" aria-controls="collapseFour">
+                      Краны мостовые электрические однобалочные опорные. Какой кран выбрать начинающему крановщику?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Краны мостовые электрические однобалочные опорные. Какой кран выбрать начинающему крановщику?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="faq-content-divider">
+          <h2 class="inner-title faq-title">
+            Категория вопросов номер 1
+          </h2>
+          <div class="inner-page-wrapper">
+            <div class="accordion" id="accordionExample2">
+              <div class="card">
+                <div class="card-header" id="heading1">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1"
+                            aria-expanded="true" aria-controls="collapse1">
+                      Краны мостовые электрические однобалочные опорные. Какой кран выбрать начинающему крановщику?
+                    </button>
+                  </h2>
+                </div>
+
+                <div id="collapse1" class="collapse show" aria-labelledby="heading1"
+                     data-parent="#accordionExample2">
+                  <div class="card-body">
+                    В мире существует огромное множество кранов и не всегда понятно какой из них лучше выбрать. Наше
+                    исчерпающее руководство поможет вам в составлении требований и поможет в подборе кранов. В мире
+                    существует огромное множество кранов и не всегда понятно какой из них лучше выбрать. Наше
+                    исчерпающее
+                    руководство поможет вам в составлении требований и поможет в подборе кранов.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading2">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapse2"
+                            aria-expanded="false" aria-controls="collapse2">
+                      Краны мостовые электрические однобалочные опорные. Какой кран выбрать начинающему крановщику?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample2">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading3">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      Краны мостовые электрические однобалочные опорные. Какой кран выбрать начинающему крановщику?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample2">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading4">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapse4"
+                            aria-expanded="false" aria-controls="collapse4">
+                      Краны мостовые электрические однобалочные опорные. Какой кран выбрать начинающему крановщику?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse4" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample2">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading5">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      Краны мостовые электрические однобалочные опорные. Какой кран выбрать начинающему крановщику?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse5" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample2">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</main>
+
+<footer class="section main-footer position-relative">
+  <div class="container footer-container">
+    <img src="img/contacts-page/footer-bg.png" class="background-image position-absolute" alt="">
+    <div class="row">
+      <div class="col-lg-6 position-relative">
+        <h2 class="footer-title white ">
+          Завод кранов UNIQ CRANE. <br> С 2011 года производим краны. <br> Качественно, быстро и надёжно. <br>
+        </h2>
+        <p class="main-footer-text">
+          UNIQ CRANE – производственная компания с высокими стандартами. Мы предлагаем комплексные решения в области
+          грузоподъёмного оборудования, начиная от разработки проектной документации и заканчивая сдачей кранов в
+          эксплуатацию.
+        </p>
+        <div class="row footer-features-wrapper">
+          <div class="col-lg-4 col-md-4">
+
+            <h2 class="footer-feature-min-number purecounter" data-purecounter-start="0" data-purecounter-end="7"></h2>
+            <p class="footer-feature-min-title">
+              Лет <br>
+              работы
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+
+            <h2 class="footer-feature-min-number purecounter" data-purecounter-start="0" data-purecounter-end="418"></h2>
+            <p class="footer-feature-min-title">
+              Клиентов
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+
+            <h2 class="footer-feature-min-number purecounter" data-purecounter-start="0" data-purecounter-end="637"></h2>
+            <p class="footer-feature-min-title">
+              Отгружено <br>
+              кранов
+            </p>
+          </div>
+        </div>
+        <a class="more-about-awards-link footer-awards-link white" href="#">Узнать все о компании <img
+          src="img/chevron-right-white.png" class="ml-5 pb-1" alt=""></a>
+        <div class="copyright">
+          <div class="d-flex justify-content-between">
+                                <span>
+                                © UNIQ CRANE, 2019
+                            </span>
+            <span>
+                                Разработка сайта — Neuron Group
+                            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 offset-lg-1">
+        <h2 class="footer-title footer__right__side__title white">
+          Бесплатный* <br> выезд специалиста
+        </h2>
+        <p class="main-footer-second-col-text">
+          Нет времени изучать? Мы сами перезвоним и проконсультируем по любым вопросам
+        </p>
+        <form class="footer-right-col-form">
+          <label class=" position-relative">
+            <input class="footer-form-control able-to-type" name="name" type="text"
+                   placeholder="Ваше имя">
+            <span class="validation-error position-absolute">Необходимо заполнить <img
+              src="img/footer/input-validation-error.svg" alt=""></span>
+          </label>
+          <label class=" position-relative">
+            <input class="footer-form-control able-to-type" name="number" type="number"
+                   placeholder="Номер телефона">
+            <span class="validation-error position-absolute">Необходимо заполнить <img
+              src="img/footer/input-validation-error.svg" alt=""></span>
+          </label>
+          <label class=" position-relative">
+            <input class="footer-form-control able-to-type" name="city" type="text"
+                   placeholder="Город или область">
+            <span class="validation-error position-absolute">Необходимо заполнить <img
+              src="img/footer/input-validation-error.svg" alt=""></span>
+          </label>
+          <button type="submit" class="submit-btn main-footer-def-btn  def-btn-wrap">
+
+            <a href="" class="footer__def_yellow_btn position-relative def-btn yellow-def-btn">
+              Отправить запрос
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <span>Отправить запрос</span>
+
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<script src="js/scrolllock.js"></script>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
